@@ -24,7 +24,7 @@
     <div class="container">
         <form action="handler_register.php" method="post">
             <div class="field">
-                <label for="">usernama</label>
+                <label for="">username</label>
                 <input type="text" class="form-control" name="username" placeholder="Username">
             </div>
 
@@ -40,6 +40,7 @@
 
             <button type="submit" class="btn btn-primary">Register</button>
         </form>
+        <a href="login.php">login</a>
     </div>
 </body>
 

@@ -22,6 +22,8 @@ if ($insert) {
 } else {
     echo "gagal insert data";
 }
+
+header("Location: login.php");
 ?>
 
 <!DOCTYPE html>
